@@ -5,8 +5,7 @@ def get_count_char(str_):
     lst = tuple(spis.lower())
     lst = [line.rstrip() for line in lst]
     dict = {symbol:lst.count(symbol) for symbol in lst}
-    for char in lst:
-        return dict
+    return dict
      # TODO посчитать количество каждой буквы в строке в аргументе str_
 
 main_str = """
