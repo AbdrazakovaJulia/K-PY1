@@ -1,5 +1,5 @@
-    import string
     import random
+    import string
 
 def get_random_password() -> str:
     var_ = string.ascii_uppercase + string.ascii_lowercase + string.digits
