@@ -16,10 +16,3 @@ def to_csv_file(OUTPUT_FILE, headers_list, data, delimiter=',', new_line='\n'):
 with open(OUTPUT_FILE, 'r') as fr:
     for line in fr:
         print(line, end='')
-
-
-
-
-
-
-
