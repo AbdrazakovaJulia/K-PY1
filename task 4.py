@@ -1,7 +1,7 @@
 import json
 
-INPUT_FILE = "input.csv"
 
+INPUT_FILE = "input.csv"
 
 def csv_to_list_dict(INPUT_FILE, sign=',') -> list[dict]:
     listdict = []
@@ -16,7 +16,3 @@ def csv_to_list_dict(INPUT_FILE, sign=',') -> list[dict]:
             listdict.append(elem)
     return  listdict
 print(json.dumps(csv_to_list_dict(INPUT_FILE), indent=4))
-
-
-
-
